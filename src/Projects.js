@@ -20,14 +20,14 @@ useEffect(()=>{
 		<section className="project">
         <div className="row project_content" id="projects">
 			<div className="col s3 offset-s1 intro" data-aos="fade-up">
-			<h2 className="subhead" data-aos="fade-up">My Projects</h2>
+			<h6 className="subhead" data-aos="fade-up">My Projects</h6>
 				<h4 className="display-1">I focus on crafting web experiences and designs that works.</h4>
 			</div>
-			<div class="col s7" data-aos="flip-right">
-			<ul class="col s7 offset-s4 collapsible #1d1b37">
+			<div class="col s4 offset-s2" data-aos="flip-right">
+			<ul class="collapsible #1d1b37">
     		<li>
 				<div class="collapsible-header collapStyle"><span className="card-title">Insta-clone
-					<h6 style={{float:"right"}}>May 2020 - June 2020</h6></span><br />
+					<h6>May 2020 - June 2020</h6></span><br />
 				</div>
 				<div class="collapsible-body">
 					<p>A webapp in which user can create account , create Post , like/unlike  other user’s post , 
@@ -40,7 +40,7 @@ useEffect(()=>{
     		</li>
     		<li>
 				<div class="collapsible-header collapStyle"><span className="card-title">Daily Expense Tracker
-					<h6 style={{float:"right"}}>March 2020 - April 2020</h6></span><br />
+					<h6>March 2020 - April 2020</h6></span><br />
 				</div>
 				<div class="collapsible-body">
 					<p>Developed a webapp where user can make record of his/her daily expenditures and view it later.</p><br />
@@ -52,7 +52,7 @@ useEffect(()=>{
     		</li>
 			<li>
 				<div class="collapsible-header collapStyle"><span className="card-title">Blogging Website
-					<h6 style={{float:"right"}}>March 2019 - November 2019</h6></span><br />
+					<h6>March 2019 - November 2019</h6></span><br />
 				</div>
 				<div class="collapsible-body">
 					<p>Developed a front-end UI where user can write, view, edit ,like/unlike blogs of other user’s.</p><br />

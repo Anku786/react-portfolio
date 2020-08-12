@@ -18,7 +18,7 @@
 }
 .navStyle{
   width: 100%;
-  height: 90vh;
+  height: 100%;
   overflow: hidden;
   background-color: transparent;
   position: relative;
@@ -97,11 +97,11 @@
 /* PortfolioData */
 .portfolioStyle{
   background-color: #1d1b37;
+  background-image: url(Images/background.jpg);
 }
 
 .subhead{
-  font-size: 1.4rem;
-  line-height: 1.286;
+  font-size: 2vw;
   text-transform: uppercase;
   letter-spacing: .4em;
   margin-top: 0;
@@ -109,8 +109,7 @@
   color: #f9861a;
 }
 .display-1{
-  font-size: 2.5rem;
-  line-height: 1.33;
+  font-size: 3vw;
 }
 
 .about{
@@ -157,12 +156,9 @@
   padding-top: 15rem;
   padding-bottom: 15rem;
   background-color: #1d1b37;
-  position: relative;
   color: #ffffff;
 }
-.project_content{
-  position: relative;
-}
+
 .collapStyle{
   background-color: #1d1b37;
 }
@@ -207,4 +203,10 @@
 .link{
   color: white;
   line-height: 2;
+}
+
+/* Eductaion Style */
+.EduStyle{
+  background-color: #1d1b37;
+  color: white;
 }

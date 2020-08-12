@@ -1,10 +1,10 @@
 import React , {useEffect} from 'react';
 import M from 'materialize-css';
 import Carousel from './Images/Carousel.jpg';
-import background from './Images/background.jpg';
 import Skills from './skills.js';
 import Projects from './Projects.js';
 import Certificates from './Certificates.js';
+import Education from './Education.js';
 import Pdf from './Images/AnkitaCV.pdf';
 import profilePic from './Images/image.jpg';
 import Aos from 'aos';
@@ -31,8 +31,9 @@ const Port = () => {
       </ul>
     </div>
   </nav>
-        <div className="col s3 offset-s2 contentStyle" data-aos="fade-up" id='home'>
-          <h1> <span style={{color:'#f9861a'}}>-</span> Hello,I'm Ankita Bishnoi , a frontend developer</h1>
+        <div className="col s6 offset-s2 contentStyle" data-aos="fade-up" id='home'>
+          <h1> <span style={{color:'#f9861a'}}>-</span> Hello,I'm Ankita Bishnoi <br />
+          A young web developer aspirant, who is passionate to learn new things and is ready to face new challenges in the journey in life</h1>
           <ul class="hero-social">
                     <li>
                         <a href="#0" title="">LinkedIn</a>
@@ -49,13 +50,13 @@ const Port = () => {
       <div className="row">
       <div className="col s5 offset-s1" data-aos="fade-up">
       <h5 className="subhead"> ABOUT ME</h5>
-      <p className="display-1">A web developer with passion for building scalable web applications 
+      <h4 className="display-1">A web developer with passion for building scalable web applications 
         having decent knowledge of JavaScript and React.Js and working experience 
-        with Node.Js, Express.Js and Mongodb</p>
+        with Node.Js, Express.Js and Mongodb</h4>
         <Skills />
       </div>
         <div className="profile-pic" data-aos="fade-up">
-      <img src={profilePic} width="300px" height="300px" />
+      <img src={profilePic} width="100%" height="100%" />
       </div>
     </div>
     </div>
@@ -68,6 +69,11 @@ const Port = () => {
     <div className="row">
       <div className="col s12">
         <Certificates />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col s12">
+        <Education />
       </div>
     </div>
 </>
