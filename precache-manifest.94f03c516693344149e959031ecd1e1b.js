@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09fe8a6f6f1ba6876c4440027646d7e6",
+    "revision": "f781fc840e91de3857ac985a7a97e532",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "bd4104c74d182fe0d313",
+    "revision": "ac5d46b6a6e4f9ef8c96",
     "url": "/react-portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "64b124fcf987cdbbce6b",
-    "url": "/react-portfolio/static/css/main.163dfd1c.chunk.css"
+    "revision": "3adb4596316be869448f",
+    "url": "/react-portfolio/static/css/main.9b215355.chunk.css"
   },
   {
-    "revision": "bd4104c74d182fe0d313",
-    "url": "/react-portfolio/static/js/2.535fbcfe.chunk.js"
+    "revision": "ac5d46b6a6e4f9ef8c96",
+    "url": "/react-portfolio/static/js/2.9c8b6aa0.chunk.js"
   },
   {
     "revision": "f3df11ca4cc8eaf0f270098bfa135497",
-    "url": "/react-portfolio/static/js/2.535fbcfe.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.9c8b6aa0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64b124fcf987cdbbce6b",
-    "url": "/react-portfolio/static/js/main.a9583603.chunk.js"
+    "revision": "3adb4596316be869448f",
+    "url": "/react-portfolio/static/js/main.db3c01bd.chunk.js"
   },
   {
     "revision": "856d3abcd398afe2b77c",
@@ -60,11 +60,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/Upgrad.7bcc0ee5.pdf"
   },
   {
-    "revision": "ec7cbd23bd79e824ba5f661009ec30bf",
-    "url": "/react-portfolio/static/media/background.ec7cbd23.jpg"
+    "revision": "61553867678a3db4ae1acd2767d06321",
+    "url": "/react-portfolio/static/media/background.61553867.jpg"
+  },
+  {
+    "revision": "0661071bd9b7728a9bb2f583bca6584d",
+    "url": "/react-portfolio/static/media/eastwood.0661071b.png"
   },
   {
     "revision": "2ebd858a1dc9f84c66600b37f4c18362",
     "url": "/react-portfolio/static/media/image.2ebd858a.jpg"
+  },
+  {
+    "revision": "20dce8bb6e450427c31b70ef53cb11c9",
+    "url": "/react-portfolio/static/media/joseph.20dce8bb.jpg"
+  },
+  {
+    "revision": "6eafbc8bf8f6ddd9d6d2a61286073dbf",
+    "url": "/react-portfolio/static/media/lpu.6eafbc8b.png"
   }
 ]);
