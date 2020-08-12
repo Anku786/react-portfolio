@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import SideBar from './SideBar.js';
+import PortfolioData from './PortfolioData.js';
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const Routing = () =>{
+  return(
+    <Switch>
+        <Route exact path="/">
+          <PortfolioData />
+        </Route>
+    </Switch>
+    );
+}
+
+function App (){
+  return(
+    <BrowserRouter>
+        <PortfolioData />
+        <SideBar />
+      </BrowserRouter>
+
   );
 }
 

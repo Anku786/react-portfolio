@@ -1,38 +1,210 @@
-.App {
+/* sidebar */
+.iconStyle{
+  font-size: 50px;
+}
+
+.barStyle{
+  font-size: 40px;
+  margin-left: 10px;
+  color: black;
+}
+.emailStyle{
+  float: right;
+  font-size: 40px;
+  margin-right: 50px;
+}
+.page-footer{
+  background-color: #1d1b37;
+}
+.navStyle{
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+}
+.portfolioStyle {
+  height: 100%;
+  -ms-flex-align: end;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  padding-bottom: 14vh;
+  position: relative;
+}
+.contentStyle h1{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-top: 100px;
+  color: #ffffff;
+  position: relative;
+}
+.hero-social {
+  list-style: none;
+   display: flex;
+  flex-flow: row wrap;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+.hero-social a {
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.hero-social a:hover,
+.hero-social a:focus,
+.hero-social a:active {
+  color: #f9861a;
+}
+.back-to-top-link{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #D6E3F0;
+  padding: 0.25rem;
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+/* HeadingFont */
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.headingFont{
+  font-size: 1.4rem;
+  line-height: 1.286;
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color: #f9861a;
+}
+
+/* PortfolioData */
+.portfolioStyle{
+  background-color: #1d1b37;
+}
+
+.subhead{
+  font-size: 1.4rem;
+  line-height: 1.286;
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color: #f9861a;
+}
+.display-1{
+  font-size: 2.5rem;
+  line-height: 1.33;
+}
+
+.about{
+  background-color: #ffffff;
+  position: relative;
+}
+.profile{
+  padding-top: 10rem;
+  position: relative;
+  overflow: hidden;
+}
+.profile::before{
+  content: "";
+  display: block;
+  background-color: #b3c2c1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: calc(50% + 12vw);
+}
+.profile .row{
+  position: relative;
+}
+.profile-pic{
+  width: 24vw;
+  position: absolute;
+  top: 1rem;
+  left: calc(50% + 110px);
+}
+
+
+
+/* Projects and Certificates*/
+.zoom:hover {
+  transform: scale(1.12);
+}
+
+.shape{
+	border-radius: 30px;
+	width: 100%;
+}
+.project{
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background-color: #1d1b37;
+  position: relative;
+  color: #ffffff;
+}
+.project_content{
+  position: relative;
+}
+.collapStyle{
+  background-color: #1d1b37;
+}
+
+/* Skills */
+.set{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width:500px){
+  .set p{
+    font-size: 2vh;
+  }
+}
+
+/* button */
+.btn--small {
+  height: 4 rem !important;
+  width:4 rem !important ;
+  color: white;
+  background-color: black;
+  border: 0.2rem solid white ;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn--small:hover {
+  background: #f9861a !important;
+  border: 0.2rem solid #f9861a;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link:hover {
+  color: #f9861a !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.emailStyle:hover {
+  color: #f9861a !important;
+  cursor: pointer;
+}
+.link{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  line-height: 2;
 }
